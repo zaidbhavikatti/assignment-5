@@ -1,0 +1,251 @@
+/* universal*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/* displayed to html page */
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*logo design */
+.logo {
+    padding: 20px 20px;
+}
+
+/* hero image */
+.images {
+    min-width: 100%;
+    min-height: 40%;
+}
+
+/* background image*/
+.background {
+
+    height: 54%;
+    background-image: url("bg-pattern-desktop.png");
+    max-width: 100%;
+}
+
+/* 3 headings */
+.h {
+    padding: 100px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 2.5rem;
+    background-color: transparent;
+    display: block;
+
+}
+
+/*  1 line of heading*/
+.first {
+
+    color: rgba(200, 156, 155, 255);
+    font-weight: 200;
+    font-size: 200%;
+    letter-spacing: 10px;
+    background-color: transparent;
+}
+
+/*  2,3line of heading*/
+.second,
+.last {
+    font-weight: 400;
+    font-size: 200%;
+    background-color: transparent;
+}
+
+/*  text content */
+.content {
+    color: rgba(231, 207, 211, 255);
+    text-align: center;
+    padding: 10px 50px;
+    margin-top: 10px;
+    word-spacing: 15px;
+    line-height: 60px;
+    background-color: transparent;
+    font-size: 2.2rem;
+}
+
+/* email id */
+input[type=email] {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 80%;
+    height: 50px;
+    border-color:1px solid rgba(239, 230, 232, 255);
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+}
+
+/* side button for email id */
+input[type="submit"] {
+    background-image: url(/icon-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 5%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(240, 152, 151, 225);
+    border-radius: 25px;
+    margin-left: -65px;
+    margin-bottom: -20px;
+}
+
+/* mobile approach starts */
+
+
+/* for smail screen mobiles */
+@media screen and (min-width:480px) {
+
+    /* for logo*/
+    .logo {
+        height: 10%;
+    }
+
+    /* content part */
+    section {
+        min-width: 100%;
+        min-height: 50%;
+    }
+
+}
+
+/* for large screen mobiles ot tablets */
+@media screen and (min-width: 768px) {
+
+    /*  for logo*/
+    .logo {
+        height: 10%;
+        padding: 25px 25px;
+    }
+
+    /*  headings */
+    h1 {
+        font-size: 4rem;
+        margin-top: 20px;
+
+    }
+
+    /* content */
+    .content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    /* email input*/
+    input {
+
+        margin-bottom: 20px;
+    }
+
+    /* email side input button  */
+    input[type="submit"] {
+        margin-left: -50px;
+    }
+
+    /* below image body */
+    section {
+        padding-left: 25px;
+    }
+}
+
+
+/* for desktop */
+@media screen and (min-width: 1080px) {
+
+    /*  logo part*/
+    .logo {
+        height: 10%;
+        padding: 25px 25px;
+    }
+
+    /* heading part */
+    h1 {
+        font-size: 4.5rem;
+        margin-top: 20px;
+
+    }
+    .images{
+        height:45%;
+    }
+
+    /* content part */
+    .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* email  address bar*/
+    input {
+
+        margin-bottom: 30px;
+    }
+
+    /* side menu for email*/
+    input[type="submit"] {
+        margin-left: -50px;
+    }
+
+    /* below image body*/
+    section {
+        padding-left: 30px;
+    }
+    
+}
+
+
+
+/* for large desktop */
+@media screen and (min-width: 1440px) {
+
+    /*  logo*/
+    .logo {
+        height: 10%;
+        padding: 25px 25px;
+    }
+     .images{
+         height: 50%;
+     }
+    /* heading */
+    h1 {
+        font-size: 5rem;
+        margin-top: 20px;
+
+    }
+
+    /* body content*/
+    .content {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* email  address bar*/
+    input {
+
+        margin-bottom: 40px;
+    }
+
+    /* side menu for email*/
+    input[type="submit"] {
+        margin-left: -50px;
+    }
+
+    /* below image body*/
+    section {
+        padding-left: 35px;
+    }
+}
